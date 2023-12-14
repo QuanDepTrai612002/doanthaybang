@@ -13,7 +13,7 @@ $dataRelated = $product->getRand(4);
             <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0"
                     src="<?php
                     // loi BASE_URL . 
-                    echo 'image/uploads/' . $data['Pro_Image'] ?>" alt="..." /></div>
+                    echo BASE_URL .'image/uploads/' . $data['Pro_Image'] ?>" alt="..." /></div>
             <div class="col-md-6">
                 <div class="small mb-1">SKU: BST-498</div>
                 <h1 class="display-5 fw-bolder"><?php echo $data['Pro_Name'] ?></h1>

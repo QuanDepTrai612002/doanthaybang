@@ -33,7 +33,7 @@ if($category=='')
                             <!-- Product image-->
                             <img class="card-img-top" src="<?php  
                             // lỗi echo BASE_URL.
-                            echo 'image/uploads/' . $r['Pro_Image'] ?>"
+                            echo  BASE_URL.'image/uploads/' . $r['Pro_Image'] ?>"
                                 alt="..." />
                             <!-- Product details-->
                             <div class="card-body p-4">
